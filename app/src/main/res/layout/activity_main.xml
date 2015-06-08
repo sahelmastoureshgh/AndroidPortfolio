@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#ffdfeaf1"
+    android:weightSum="1">
+
+    <TextView android:text="My Nanodegree App!" android:layout_width="189dp"
+        android:layout_height="84dp"
+        android:id="@+id/textView"
+        android:paddingBottom="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        style="@style/main_button_style"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/button"
+        android:onClick="sendMessage"
+         />
+
+    <Button
+        style="@style/main_button_style"
+        android:text="SCORES APP"
+        android:id="@+id/button2"
+        android:onClick="sendMessage"
+         />
+
+    <Button
+        style="@style/main_button_style"
+        android:text="LIBRARY APP"
+        android:id="@+id/button3"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        style="@style/main_button_style"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/button4"
+        android:onClick="sendMessage"
+         />
+
+    <Button
+
+        android:text="BACON READER"
+        android:id="@+id/button5"
+        style="@style/main_button_style"
+        android:onClick="sendMessage"/>
+
+    <Button
+        style="@style/main_button_style"
+        android:text="CAPSTONE: MY OWN APP"
+        android:id="@+id/button6"
+        android:background="#990012"
+        android:onClick="sendMessage"
+       />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" >
+    <style name="main_button_style">
+
+        <item name="android:background">#F08C35</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:layout_marginRight">80dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+
+
+    </style>
+</resources>
